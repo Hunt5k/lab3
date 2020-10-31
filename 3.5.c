@@ -42,7 +42,7 @@ int main(){
 
         // condition for non-prime
     if (tunggu % i == 0){
-        bendera = 1;
+        bendera = 2;
         break;
        }
     }
@@ -51,10 +51,10 @@ int main(){
         printf("1 is neither prime nor composite.\n");
     }
     else {
-        if (bendera == 0)
-            printf("%d is a prime number.\n", tunggu);
+        if (bendera == 2)
+            printf("%d is a even number.\n", tunggu);
         else
-            printf("%d is not a prime number.\n", tunggu);
+            printf("%d is  a Odd  number.\n", tunggu);
     }
 }
 	
